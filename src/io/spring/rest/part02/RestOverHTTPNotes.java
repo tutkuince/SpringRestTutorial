@@ -12,5 +12,12 @@ public class RestOverHTTPNotes {
 	 * GET					Read a list of entities or single entity
 	 * PUT					Update an existing entity
 	 * DELETE				Delete an existing entity
+	 * 
+	 * 
+	 * HTTP Response Message
+	 * 
+	 * Response line: 		server protocol and status code
+	 * Header variables: 	response metadata
+	 * Message body:		contents of message
 	 * */
 }
