@@ -1,4 +1,4 @@
-package io.spring.rest.model;
+package io.spring.rest.part01.model;
 
 public class Student {
 

@@ -1,11 +1,11 @@
-package io.spring.rest.main;
+package io.spring.rest.part01.main;
 
 import java.io.File;
 import java.io.IOException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.spring.rest.model.Student;
+import io.spring.rest.part01.model.Student;
 
 public class Driver {
 	public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Driver {
 		// read JSON file and map/convert to JAVA POJO
 		Student student = null;
 		try {
-			 student = mapper.readValue(new File("src\\io\\spring\\rest\\data\\student.json"), Student.class);
+			 student = mapper.readValue(new File("src\\io\\spring\\rest\\part01\\data\\student.json"), Student.class);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
