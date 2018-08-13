@@ -28,5 +28,13 @@ public class RestOverHTTPNotes {
 	 * 300 - 399	Redirection
 	 * 400 - 499	Client Error
 	 * 500 - 599	Server Error
+	 * 
+	 * 
+	 * MIME Content Types ( Multipurpose Internet Mail-Extension )
+	 * 
+	 * The message format is described by MIME content type
+	 * Basic Syntax: type/sub-type -> text/html, text/plain
+	 * 
+	 * 
 	 * */
 }
