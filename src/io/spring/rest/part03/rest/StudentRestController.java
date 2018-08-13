@@ -38,6 +38,6 @@ public class StudentRestController {
 	// define endpoint for "/students/{studentId} - return Student object
 	@GetMapping("/students/{studentId}")
 	public Student getStudent(@PathVariable int studentId) {
-		return getStudents().get(studentId);
+		return studentList.get(studentId);
 	}
 }
