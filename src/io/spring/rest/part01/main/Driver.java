@@ -2,6 +2,7 @@ package io.spring.rest.part01.main;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -32,5 +33,8 @@ public class Driver {
 		
 		System.out.println("Street: " + address.getStreet());
 		System.out.println("City: " + address.getCity());
+		
+		// print out languages
+		System.out.println("Language(s): " + Arrays.asList(student.getLanguage()));
 	}
 }
