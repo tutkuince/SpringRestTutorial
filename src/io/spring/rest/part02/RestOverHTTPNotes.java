@@ -19,5 +19,14 @@ public class RestOverHTTPNotes {
 	 * Response line: 		server protocol and status code
 	 * Header variables: 	response metadata
 	 * Message body:		contents of message
+	 * 
+	 * 
+	 * HTTP Response - Status Codes
+	 * 
+	 * 100 - 199	Informational
+	 * 200 - 299	Successful
+	 * 300 - 399	Redirection
+	 * 400 - 499	Client Error
+	 * 500 - 599	Server Error
 	 * */
 }
