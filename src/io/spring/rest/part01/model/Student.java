@@ -6,6 +6,7 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private boolean active;
+	private String[] language;
 
 	public int getId() {
 		return id;
@@ -37,6 +38,14 @@ public class Student {
 
 	public void setActive(boolean active) {
 		this.active = active;
+	}
+
+	public String[] getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String[] language) {
+		this.language = language;
 	}
 
 }
