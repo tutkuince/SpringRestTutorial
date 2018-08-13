@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.spring.rest.part01.model.Address;
 import io.spring.rest.part01.model.Student;
 
 public class Driver {
@@ -25,5 +26,11 @@ public class Driver {
 		// print first name and last name
 		System.out.println("First Name: " + student.getFirstName());
 		System.out.println("Last Name: " + student.getLastName());
+		
+		// print out address: street and city
+		Address address = student.getAddress();
+		
+		System.out.println("Street: " + address.getStreet());
+		System.out.println("City: " + address.getCity());
 	}
 }
