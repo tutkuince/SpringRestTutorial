@@ -2,5 +2,17 @@
 	"id": 1,
 	"firstName": "Tutku",
 	"lastName": "Ince",
-	"active": "true"
+	"active": true,
+	"address": {
+		"street": "100 Main St",
+		"city": "Izmir",
+		"state": "Aegean",
+		"zip": "35000",
+		"country": "Turkey"
+	},
+	"language": [
+		"Java",
+		"C#",
+		"Javascript"
+	]
 }
